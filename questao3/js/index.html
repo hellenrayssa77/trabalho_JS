@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aposentadoria</title>
+</head>
+<body>
+
+    <script>
+
+        let empregado = [ 1, 2, 3, 4 ]
+        let anoDeNasc = 1959;
+        let anoAtual = 2022;
+        let idade = anoAtual - anoDeNasc;
+        let tempoDeTrab = idade - 35;
+
+        if ( idade >= 60 && tempoDeTrab >=25 ) {
+             document.write("número do empregado : " + empregado[1] + "<br> idade do empregado : " + idade + " anos " + "<br> ingressou na empresa á : " + tempoDeTrab +
+             " anos " + "<br> requer aposentadoria")
+
+        } else if ( idade >= 60 && tempoDeTrab >= 30) {
+            document.write("número do empregado : " + empregado[1] + "<br> idade do empregado : " + idade + " anos " + "<br> ingressou na empresa á :" + tempoDeTrab +
+             "anos" + "<br> requer aposentadoria")
+        }
+
+        else {
+            document.write("número do empregado : " + empregado[1] + "<br> idade do empregado : " + idade + " anos " + "<br> ingressou na empresa á :" + tempoDeTrab +
+             "anos" + "<br> não requer aposentadoria")
+        }
+    </script>
+</body>
+</html>
+
+

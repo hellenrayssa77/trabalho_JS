@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informaçõesdoprod</title>
+</head>
+<body>
+    
+    <script>
+          
+         var quantidadeAdquirida = 4;
+         var precoUnitario = 13.00;
+         var total = quantidadeAdquirida * precoUnitario;
+         var totalAPagar = total - desconto;
+         var desconto = 52.00 * 0.02
+
+         document.write ( " produto : caixa de chocolate" + " <br> quantidade adquirida : " + quantidadeAdquirida + 
+         " <br> preço por cada unidade : " + precoUnitario + " <br> valor total : " + total + " <br> desconto : " + desconto )
+
+        if ( quantidadeAdquirida <= 5 ) {
+            document.write( " <br> o desconto será de 2% " )
+
+        } else if ( quantidadeAdquirida > 5 && quantidadeAdquirida <= 10 ) {
+            document.write( " <br> o desconto será de 3% " )
+
+        } else if ( quantidadeAdquirida > 10 ) {
+            document.write( " o desconto será de 5% " )
+        }
+
+
+
+
+    </script>
+
+</body>
+</html>

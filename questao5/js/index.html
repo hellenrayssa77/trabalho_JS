@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>códigoDoProd</title>
+</head>
+<body>
+
+    <script>
+        let codigo = 6;
+
+        if ( codigo == 1 ) {
+            document.write ( " classificação do produto : alimento não-perecível" )
+
+        } else if ( codigo >= 2 && codigo <= 4 ) {
+            document.write ( " <br> classificação do produto : alimento perecível" )
+
+        } else if ( codigo == 5 || codigo == 6 ) {
+            document.write ( " <br> classificação do produto : vestuário" )
+
+        } else if ( codigo == 7 ) {
+            document.write ( " <br> classificação do produto : higiene pessoal" ) 
+
+        } else if ( codigo >= 8 && codigo <= 15 ) {
+            document.write ( " <br> classificação do produto : limpeza e utensilios domésticos" )
+
+        } else {
+            document.write ( " <br> classificação do produto : código inválido" )
+        }
+        
+    </script>
+
+</body>
+</html>
